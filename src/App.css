@@ -39,3 +39,53 @@ nav img {
 .hero h1 {
   margin-bottom: 16px;
 }
+
+/* Card */
+.img-container {
+  width: 200px;
+  position: relative;
+  font-size: 12px;
+  margin-bottom: 9px;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.img-container .tag {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background: white;
+  border-radius: 2px;
+  width: 60px;
+  height: 20px;
+  font-size:10.24px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text {
+  font-weight: 400;
+  display: flex;
+  width: max-content;
+  gap: 4px;
+  align-items: center;
+}
+
+.star-img {
+  width: 14px;
+  height: auto;
+}
+
+.review-count,
+.location,
+.dot {
+  color: #918E9B;
+}
+
+.title {
+  margin: 8px 0;
+}
