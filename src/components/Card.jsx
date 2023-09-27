@@ -12,7 +12,7 @@ function Card() {
         <img src={star} alt="" className="star-img" />
         <p className="score">5.0</p>
         <p className="review-count">(6)</p>
-        <p>&middot;</p>
+        <p className="dot">&middot;</p>
         <p className="location">USA</p>
       </div>
       <p className="title">Life lessons with Katie Zaferes</p>
