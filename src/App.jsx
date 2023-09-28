@@ -10,7 +10,7 @@ function App() {
       <Hero />
       <section className="card-group">
         <Card
-          img="/card1.png"
+          img="./assets/card1.png"
           tag="sold out"
           rating="5.0"
           ratingCount="6"
@@ -19,7 +19,7 @@ function App() {
           price="136"
         />
         <Card
-          img="/card2.png"
+          img="./assets/card2.png"
           tag="online"
           rating="5.0"
           ratingCount="30"
@@ -28,7 +28,7 @@ function App() {
           price="125"
         />
         <Card
-          img="/card3.png"
+          img="./assets/card3.png"
           tag="null"
           rating="4.8"
           ratingCount="2"
