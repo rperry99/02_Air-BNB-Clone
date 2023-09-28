@@ -17,6 +17,7 @@
 - Having the images in `src/assets` makes it so the images do not load, even if I am calling them within App.jsx like `img="./assets/card1.png"`.
 - I tried moving the images to the public folder. This worked locally in the dev environemnt, but not in the [live demo over here](https://rperry99.github.io/02_Air-BNB-Clone/).
 - So far, throughout [all of the React projects I am doing for the course](https://github.com/rperry99/FreeCodeCamp-React), the only way I have been able to get images to work is to import them and then call them with `{imageName}`. But this approach I do not think works when it comes to props.
+- **It seems that going forward, I will need to put all static assets into the public folder, and adjust how I refer to the images. This is the only thing I have seem to have gotten to work on a more consistant basis.**
 
 ## New things I learned from this.
 
