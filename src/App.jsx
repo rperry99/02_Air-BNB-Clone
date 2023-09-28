@@ -29,7 +29,6 @@ function App() {
         />
         <Card
           img="./assets/card3.png"
-          tag="null"
           rating="4.8"
           ratingCount="2"
           location="USA"

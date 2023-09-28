@@ -4,7 +4,7 @@ function Card({ img, tag, rating, ratingCount, location, title, price }) {
   return (
     <div className="card">
       <div className="img-container">
-        <div className="tag">{tag}</div>
+        {tag && <div className="tag">{tag}</div>}
         <img src={img} alt="" />
       </div>
       <div className="card-text">
