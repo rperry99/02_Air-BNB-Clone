@@ -6,6 +6,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 section {
   margin: 0 36px;
 }
@@ -40,9 +44,24 @@ nav img {
   margin-bottom: 16px;
 }
 
+.subheading {
+  margin-bottom: 50px;
+}
+
 /* Card */
+.card-group {
+  width: max-content;
+  margin-bottom: 50px;
+}
+
+.card {
+  width: 175px;
+  display: inline-block;
+  margin-right: 18px;
+}
+
 .img-container {
-  width: 200px;
+  width: 100%;
   position: relative;
   font-size: 12px;
   margin-bottom: 9px;
