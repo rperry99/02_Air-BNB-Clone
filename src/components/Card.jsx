@@ -1,22 +1,22 @@
 import star from '../assets/star.png';
 
-function Card({ img, tag, rating, ratingCount, location, title, price }) {
+function Card(props) {
   return (
     <div className="card">
       <div className="img-container">
-        {tag && <div className="tag">{tag}</div>}
-        <img src={img} alt="" />
+        {props.tag && <div className="tag">{props.tag}</div>}
+        <img src={props.img} alt="" />
       </div>
       <div className="card-text">
         <img src={star} alt="" className="star-img" />
-        <span className="score">{rating}</span>
-        <span className="review-count">({ratingCount})</span>
+        <span className="score">{props.rating}</span>
+        <span className="review-count">({props.ratingCount})</span>
         <span className="dot">&middot;</span>
-        <span className="location">{location}</span>
+        <span className="location">{props.location}</span>
       </div>
-      <p className="title">{title}</p>
+      <p className="title">{props.title}</p>
       <p className="price">
-        <strong>From ${price}</strong> / person
+        <strong>From ${props.price}</strong> / person
       </p>
     </div>
   );
