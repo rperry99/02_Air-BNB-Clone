@@ -4,7 +4,7 @@
     <img src="screenshot.png">
 </p> -->
 
-## Some things to Concider
+## Some things to Consider
 
 - This page was created using `npm create vite@latest`.
 - Added images to the `public` folder. I am not entirely sure if this is the correct approach, but it was the only way I could get the images to load using props.
