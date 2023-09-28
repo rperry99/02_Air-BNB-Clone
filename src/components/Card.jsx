@@ -1,11 +1,11 @@
-import star from '../assets/star.png';
+import star from '/assets/star.png';
 
 function Card(props) {
   return (
     <div className="card">
       <div className="img-container">
         {props.tag && <div className="tag">{props.tag}</div>}
-        <img src={props.img} alt="" />
+        <img src={`/assets/${props.img}`} alt="" />
       </div>
       <div className="card-text">
         <img src={star} alt="" className="star-img" />
