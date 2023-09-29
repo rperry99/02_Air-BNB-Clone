@@ -5,24 +5,26 @@ import cardData from './cardData';
 import './App.css';
 
 function App() {
-  const cardElements = cardData.map((card) => {
+  const cards = cardData.map((card) => {
     return (
       <Card
+        key={card.id}
         img={card.img}
-        tag={card.tag}
-        rating={card.rating}
-        ratingCount={card.ratingCount}
+        rating={card.stats.rating}
+        ratingCount={card.stats.ratingCount}
         location={card.location}
         title={card.title}
         price={card.price}
+        openSpots={card.openSpots}
       />
     );
   });
+
   return (
     <>
       <Navbar />
       <Hero />
-      <section className="card-group">{cardElements}</section>
+      <section className="card-group">{cards}</section>
     </>
   );
 }
