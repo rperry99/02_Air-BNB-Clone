@@ -6,18 +6,7 @@ import './App.css';
 
 function App() {
   const cards = cardData.map((card) => {
-    return (
-      <Card
-        key={card.id}
-        img={card.img}
-        rating={card.stats.rating}
-        ratingCount={card.stats.ratingCount}
-        location={card.location}
-        title={card.title}
-        price={card.price}
-        openSpots={card.openSpots}
-      />
-    );
+    return <Card key={card.id} card={card} />;
   });
 
   return (
