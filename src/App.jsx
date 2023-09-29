@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   const cards = cardData.map((card) => {
-    return <Card key={card.id} card={card} />;
+    return <Card key={card.id} {...card} />;
   });
 
   return (
